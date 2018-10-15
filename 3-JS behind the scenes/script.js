@@ -1,36 +1,24 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- @TonghuiJiang Sign out
-130
-517 707 jonasschmedtmann/complete-javascript-course
- Code  Issues 0  Pull requests 3  Projects 0  Wiki  Insights
-complete-javascript-course/3-how-JS-works/final/script.js
-f387a37  on 14 Jun
-@jonasschmedtmann jonasschmedtmann Initial commit rocket
-     
-Executable File  114 lines (83 sloc)  1.57 KB
 /////////////////////////////////////
 // Lecture: Hoisting
 
-/*
+
 // functions
-calculateAge(1965);
-function calculateAge(year) {
+calculateage(1965);
+function calculateage(year) {
     console.log(2016 - year);
 }
-// retirement(1956);
+
 var retirement = function(year) {
     console.log(65 - (2016 - year));
 }
+
+retirement(1965)
+
 // variables
-console.log(age);
 var age = 23;
+console.log(age);
+
 function foo() {
     console.log(age);
     var age = 65;
@@ -38,7 +26,7 @@ function foo() {
 }
 foo();
 console.log(age);
-*/
+
 
 
 
