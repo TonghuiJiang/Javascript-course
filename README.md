@@ -1,6 +1,6 @@
 # This is a javsascript course repo.
 
-## this repo includs simple exercise and projects.
+## This repo includs simple exercise and projects.
 
 The projects include DOM manipulation, the Budget App Project
 
